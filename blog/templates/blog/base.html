@@ -13,6 +13,11 @@
         <header class="page-header">
           <div class="container">
               <h1><a href="/">Welcome to Armandas Blog About Video Games</a></h1>
+              {% if user.is_authenticated %}
+              <a href="{% url 'post_new' %}">
+                <button type="button" class="btn btn-danger">ADD POST</button>
+              </a>
+              {% endif %}
           </div>
         </header>
         <main class="container">

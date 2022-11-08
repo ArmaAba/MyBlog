@@ -1,14 +1,10 @@
-h1 {
-    color: #bd0000;
+h1{
+    color: #d4c7c7;
     font-family: 'Silkscreen';
 }
 h2 a {
     color: darkgreen;
     font-family: 'Lobster';
-}
-
-body {
-    padding-left: 15px;
 }
 
 .post {
